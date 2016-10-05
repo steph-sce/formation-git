@@ -1,10 +1,10 @@
-## différents cas de mauvaise utilisation de git
+# Différents cas de mauvaise utilisation de git
 
 Ce dépôt contient un travail dont le master est en V1, en production : un carré jaune sur fond jaune, qui s'anime verticalement a^rès un clic sur un bouton. La V2 souhaitée est un carré rouge sur fond jaune qui doit se déplacer du coin supérieur gauche au coin inférieur droit. Un sprint est prévu afin de réaliser cette fonctionnalité.
 
 Voici différentes configurations de collaboration qui mènent à des diffcultés :
 
-# 1 - le manque de modularité
+## 1 - le manque de modularité
 
  - Collaborateur 1 : crée une branche de dev, la checkout et la push
  - Collaborateur 2 : pull la branche dev et checkout
@@ -13,7 +13,7 @@ Voici différentes configurations de collaboration qui mènent à des diffculté
 
 > Conflit : la réindentation a eu un effet de bord sur la CSS, une séparation en différents fichiers est souhaitée
 
-# 2 - le manque d'ordonancement
+## 2 - le manque d'ordonancement
 
  - Collaborateur 1 : crée une branche de dev, la checkout et la push
  - Collaborateur 2 : pull la branche dev et checkout
@@ -22,7 +22,7 @@ Voici différentes configurations de collaboration qui mènent à des diffculté
 
 > Conflit : le spit est effectué trop tard, une analyse technique en amont est souhaitable à l'écriture du backlog
 
-# 3 - un isolement trop important
+## 3 - un isolement trop important
 
  - Collaborateur 1 : crée une branche de dev, la checkout et la push
  - Collaborateur 2 : pull la branche dev et checkout
