@@ -32,7 +32,7 @@ Voici différentes configurations de collaboration qui mènent à des diffculté
  - Collaborateur 1 : refactorise le javascript et commit et push
  - Collaborateur 2 : pull pour pusher avant les tests et la mise en prod
  
- > Conflit : il aurait suffit que les deux collaborateurs push et pull régulièrement pour n'avoir aucun problème et continuer de coder sur la version de l'autre
+> Conflit : il aurait suffit que les deux collaborateurs push et pull régulièrement pour n'avoir aucun problème et continuer de coder sur la version de l'autre
  
  
  
